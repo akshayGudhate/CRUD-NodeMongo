@@ -24,5 +24,5 @@ app
 });
 
 app.listen(port, (req, res) => {
-  console.log(`App is listning on port ${port}.... !!`)
+  console.log(`App is listning on port ${port}.. !!`)
 });
