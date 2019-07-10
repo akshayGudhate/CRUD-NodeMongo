@@ -1,0 +1,3 @@
+To import items data into your mongoDB database.
+Make sure mongoDB is running then
+run 'mongo itmesAPI < itemsJson.js' from the command line.
