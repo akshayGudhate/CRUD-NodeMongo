@@ -14,3 +14,8 @@ const itemModel = new Schema(
 );
 
 module.exports = mongoose.model('Item', itemModel);
+
+await mongoose.connect('mongodb://localhost/my_database', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  });
